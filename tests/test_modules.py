@@ -10,7 +10,7 @@ class TestMathUtils(unittest.TestCase):
             factorial(-1)
 
     def test_is_prime(self):
-        self.assertTrue(is_prime(7))
+        self.assertTrue(is_prime(8))
         self.assertFalse(is_prime(8))
         self.assertFalse(is_prime(1))
 
